@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+div.homecontent {
+    
+    background-image: url('clock.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    width: auto;
+    background-position: center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('clock.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+/* Styles for the navbar */
+.navbar {
+    background-color: rgb(139, 131, 131);
+    position: sticky; 
+    top: 0; /* Stick the navbar to the top of the viewport */
+  z-index: 1000; 
+    /* Sets the background color to black */
+  }
+  
+  /* Style the navbar brand (TIME X) */
+  .navbar-brand {
+    color: white; /* Sets the text color to white */
+  }
+  .navbar-brand:hover {
+    color: rgb(205, 226, 11); /* Change the text color to green on hover */
+  }
+ 
+
+  /* Style the navbar links */
+  .navbar-nav .nav-link {
+    color: white; /* Sets the text color to white */
+  }
+  
+  /* Style the active link */
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link:hover {
+    color: white; /* Sets the active and hover text color to white */
+  }
+  
+  /* Override Bootstrap's active background color */
+  .navbar-dark .navbar-nav .nav-link.active {
+    background-color: transparent; /* Set the active background color to transparent */
+  }
+  .cont{
+    color:wheat;
+  }
+  body{
+    overflow-x: hidden;
+  }
+ 
+  
+  
